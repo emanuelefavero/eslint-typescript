@@ -30,6 +30,14 @@ npm run build
 npm start
 ```
 
+## Tips - How to initialize a new project
+
+- `npm init -y`
+- `tsc --init`
+- `npm init @eslint/config`
+- `npm i --save-dev eslint typescript ts-node nodemon @types/node @types/express @typescript-eslint/eslint-plugin @typescript-eslint/parser`
+  _NOTE: Install only the packages you need (e.g. if you don't need express, don't install @types/express)_
+
 ## Installed packages
 
 - dev dependencies
